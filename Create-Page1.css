@@ -1,0 +1,112 @@
+/* Make sure that padding behaves as expected */
+/** {box-sizing:border-box}*/
+
+/* Container for skill bars */
+html{
+    font-family: Helvetica Neue;;
+}
+.left{
+    margin-left: auto;
+}
+
+li:nth-child(2){
+    margin-right: 30px;
+}
+li:nth-child(3){
+    margin-right: 30px;
+}
+li:nth-child(4){
+    margin-right: 30px;
+}
+.container {
+    width: 40%; /* Full width */
+    /*background-color: #ddd; !* Grey background *!*/
+    display: flex;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    color: white;
+    height: 28px;
+    margin-left: 2px;
+    margin-top: 13px;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+.district1{
+    width: 87%; background-color: #808080;
+}
+.district2{
+    width: 76%; background-color: #808080;
+}
+.district3{
+    width: 92%; background-color: #808080;
+}
+.district4{
+    width: 97%; background-color: #808080;
+}
+.district5{
+    width: 100%; background-color: #808080;
+}
+.district6{
+    width: 34%; background-color: #808080;
+}
+.district7{
+    width: 91%; background-color: #808080;
+}
+.district8{
+    width: 96%; background-color: #808080;
+}
+.district9{
+    width: 78%; background-color: #808080;
+}
+.district10{
+    width: 21%; background-color: #808080;
+}
+.box2{
+    display: flex;
+    background-color: 	#4D7ABB;
+}
+.chart{
+    width: 400px;
+}
+.each{
+    display: flex;
+    margin-bottom: 2px;
+}
+.text {
+    text-align: center;
+    color: white;
+
+}
+.box1{
+    background-color: #4071B6;
+}
+.address{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+.pledge-text{
+    width: 59%;
+    font-size: 30px;
+    margin: auto;
+}
+.pledge-box{
+    width: 30%;
+}
